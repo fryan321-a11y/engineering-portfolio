@@ -5,3 +5,9 @@
 @media(max-width:900px){.hero-grid,.feature-grid,.two-col-project,.fit-grid,.contact-grid{grid-template-columns:1fr}.hero-panel{border-left:0;border-top:1px solid #353a3f;padding:25px 0 0}.section-head{align-items:start;flex-direction:column}.meta{text-align:left}.gallery{grid-template-columns:repeat(2,1fr)}.secondary-gallery{grid-template-columns:repeat(3,1fr)}.contact-links{align-items:flex-start}.fit .skill-tags{grid-column:auto}}
 @media(max-width:650px){.wrap{width:min(calc(100% - 26px),var(--max))}.site-header nav{gap:12px;overflow-x:auto;white-space:nowrap}.site-header nav a{font-size:.75rem}.brand{display:none}.nav-wrap{justify-content:flex-start}.hero{padding:68px 0 58px}.hero h1{font-size:4rem}.hero-panel div{grid-template-columns:95px 1fr}.section{padding:58px 0}.gallery,.secondary-gallery,.before-after{grid-template-columns:1fr}.facts{grid-template-columns:1fr 1fr}.lightbox{padding:18px}.lightbox-close{right:10px;top:5px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* The five portrait map exports include black bars inside the images. */
+.map-trim{overflow:hidden}
+.map-trim img{transform:scale(1.11)}
+.map-trim:hover img{transform:scale(1.12)}
+.lightbox img.trim-map{max-height:78vh;transform:scale(1.11)}
